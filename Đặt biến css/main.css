@@ -1,0 +1,14 @@
+:root
+{
+    --hieu:blue;
+    
+}
+
+h1{
+    color: var(--hieu);
+}
+ h2
+ {
+     --hieu1: red;
+     color: var(--hieu1);
+ }

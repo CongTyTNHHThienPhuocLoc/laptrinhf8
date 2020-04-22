@@ -1,0 +1,256 @@
+
+::selection{
+    background-color: aqua;
+    color: brown;
+}
+/* khung ở trên */
+.khung{
+    min-height: 50px;
+    width: 100vw;
+    background-color: #EF5122;
+    display: flex; 
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+
+    
+}
+.khung_list{
+    padding-left: 0;
+    margin-left:  20px;
+    margin-right: 50px;
+    /* dài rộng */
+}
+.item{
+    color: white;
+    margin: 0 10px;
+     display: inline-block; 
+}
+/* forn đăng kí  */
+.khung_mo{
+    height: 300px;
+    width: 100vw;
+    margin-top: 57px;
+    background-color:#d3d3d3;
+    padding-top: 80px;
+    
+}
+.form_container{
+    max-width: 70vw;
+    height: 150px;
+    /* margin-top: 50px; */
+    /* padding: 32px; */
+     margin: 0 auto 0 auto;  
+    background-color:white;
+    /* position: relative;
+    top: 40px; */
+      padding-top: 50px;
+}
+.label{
+color: black;
+min-width: 100px;
+}
+.text{
+    color: black;
+    flex: 1;
+}
+.form_row{
+    padding: 10px 40px;
+    display: flex;
+    
+}
+
+/* đoạn văn */
+.hieu{
+    font-size: 30px;
+    margin-left: 35vw;
+    margin-top: 30px;
+    position: sticky;
+    top: 80px;
+}
+.trang{
+    width:85vw ;
+    height: 45vh;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 50px;
+    background-color: lightgrey;
+    padding: 50px;
+    font-size: 15px;
+    display: flex;
+}
+.div1{
+    flex: 1;
+    order: 3;
+}
+.div2{
+    flex: 4;
+    margin-left: 30px;
+    order: 1;
+}
+.div3{
+    flex:1;
+    margin-left: 30px;
+    order: 2;
+}
+
+/* Khung có màu  */
+
+.khung-mau{
+    width:93vw ;
+    height: 60vh;
+    padding-top: 60px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 50px;
+    background-color:#d3d3d3;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+@media  (min-width: 740px)
+{
+    .khung-mau{
+        flex-direction: row;
+    }
+}
+.box-div1{
+    height: 280px;
+    width: 300px;
+    background-color: khaki;
+    padding-left:20px ;
+    padding-right: 20px;
+
+}
+.box-div2{
+    height: 280px;
+    width: 300px;
+    background-color: lightsteelblue;
+    padding-left:20px ;
+    padding-right: 20px;
+}
+.box-div3{
+    height: 280px;
+    width: 300px;
+    background-color: tan;
+    padding-left:20px ;
+    padding-right: 20px;
+}
+
+
+
+
+/* Khung đỏ 1 2 3 4 5  */
+.back{
+    margin-top: 20px;
+    width: auto;
+    background-color:tan;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.hop{
+    
+    color: white;
+    width:148px;
+    height: 90px;
+    text-align: center;
+    font-size: 48px;
+    margin: 50px 0 20px 0;
+    background-color: red;
+    
+    line-height: 90px;
+    font-weight: 1000;
+    
+}
+
+/* Hộp Chữ Căn Giữa */
+.center-layout{ 
+    padding: 30px;
+    height: 20px;
+    margin-top: 30px;
+    display: flex;
+    background-color:lightgoldenrodyellow;
+}
+.center-item{
+    font-size: 20px;
+    font-weight: 700;
+     margin: auto;
+
+}
+
+
+/* Chart */
+.chart-background{
+    margin: 40px auto 0px auto ;
+    padding: 40PX;
+    background-color: lightsalmon;
+    height: 320px;
+     display: flex;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+}
+
+.chart{
+height: var(--chieucao);
+width: 50px;
+text-align: center;
+color: lightyellow;
+background-color: limegreen;
+align-self: flex-end;
+animation: lon ease-out 1s;
+
+}
+@keyframes lon{
+    from{
+        opacity: 0;
+        height: 0%;
+    }
+    to{
+        opacity: 1;
+        height: var(--chieucao);
+    }
+}
+/* The-end */
+@keyframes theend{
+    from{
+        opacity: 0;
+        height: 0px;
+    }
+    to{
+        opacity: 1;
+        height:90%;
+    }
+}
+.the-end{
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    width: 90vw;
+    height: 300px;
+    background-color:maroon;
+    display: flex;
+    justify-content: space-around;
+}
+.the-end-one{
+   background-color: mediumorchid;
+   padding: 20px;
+   flex:1;
+   animation:theend ease-out 5s;
+}
+
+.the-end-two{
+    display: flex;
+    background-color:thistle;
+    padding: 20px;
+    flex: 2;
+    animation:theend ease-out 5s;
+}
+.the-end-two-1{
+    background-color: snow;
+    padding: 20px;
+}
+.the-end-two-2{
+    background-color: yellow;
+    padding: 20px;
+}

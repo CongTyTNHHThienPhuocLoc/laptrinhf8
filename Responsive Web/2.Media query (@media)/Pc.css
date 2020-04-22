@@ -1,0 +1,13 @@
+/* min-width là lớn  thì thực hiện
+  max- width là nhỏ hơn vs thực hiện
+*/
+
+/* @media only screen and ( min-width: 1024px) {
+    h1{
+        color: red;
+    }
+} */
+
+h1{
+   color: red;
+}

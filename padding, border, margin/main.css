@@ -1,0 +1,48 @@
+.padd{
+    background-color: blanchedalmond;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+
+    /* căn giữa */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.bord_df{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+    border-color: cornflowerblue;
+    border-top-left-radius: 10px;
+    border-style: groove;
+
+}
+.bord2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+
+    border-color: blue;
+    border-width:10px ;
+    border-style: solid;
+}
+
+    .bord12{
+        height: 100px;
+        width: 100px;
+        background-color: red;
+
+        margin-top: 20px;
+        
+    
+        border-color: blue;
+        border-width:10px ;
+        border-style: solid;
+    
+    }

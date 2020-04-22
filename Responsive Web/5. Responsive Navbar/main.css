@@ -1,0 +1,167 @@
+/* Animation */
+@keyframes HienDan{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+.main {
+    width: 1200px;
+    min-height: 100vh;
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    background-color: #333;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 48px;
+}
+
+/* Article */
+h1 {
+    line-height: 2rem;
+}
+
+article {
+    padding: 0 16px;
+    line-height: 1.6rem;
+}
+
+article img {
+    width: 640px;
+    max-width: 100%;
+    display: block;
+    margin: 32px auto;
+}
+
+
+
+/* Mobile Nav */
+
+.main__nav-btn{
+    height: 33px;
+    width: 28px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    margin-left: 15px;
+}
+
+/* Nhấn vào thẻ input thì hiện overlay */
+.main__nav-mobile-input:checked ~.main__nav-overlay{
+    display: block;
+    
+}
+/* Nhấn vào thẻ input thì hiện navbar */
+.main__nav-mobile-input:checked ~.main__nav-Mobile{
+    transform: translateX(0%);
+    box-shadow: 3px 0 1px antiquewhite;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main__nav-overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    animation: HienDan .2s ease-in;
+}
+
+.main__nav-Mobile{
+   position: fixed;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   width: 320px;
+   /* tránh trường hợp màn hình nhỏ hơn 320px */
+   max-width: 100%;
+   background-color: white;
+   transform: translateX(-100%);
+   transition:all linear .2s;
+   opacity: .5;
+}
+
+.main__nav-Mobile-close{
+    height: 28px;
+    width: 28px;
+    color: #666;
+    float: right;
+    margin: 15px;
+
+}
+
+.main__nav-Mobile-list{
+   margin-top: 24px;
+   list-style: none;
+   clear: both;
+}
+
+.main__nav-Mobile-list-link{
+    text-decoration: none;
+   padding: 10px 0;
+    display: block;
+    color: #333;
+    font-size: 1.4rem;
+}
+.main__nav-Mobile-list-link:hover{
+    color: chartreuse;
+}
+
+/* Phần Responsive */
+
+@media only screen and (max-width: 1023px){
+    .main__nav-btn{
+        display: block;
+    }
+    .nav__pc{
+        display: none;
+    }
+    .main__nav-Mobile{
+        /* transform: translateX(0%); */
+    }
+    .main__nav-overlay{
+        /* display: block; */
+    }
+    
+}

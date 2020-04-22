@@ -1,0 +1,19 @@
+.Style1
+		{
+            padding: 60px 600px 60px 600px; 
+			background: gray;
+			color:rgb(0, 255, 94);
+		}
+        
+.Style2
+        {
+            background-color: gray;
+        }
+
+h1{
+    font-size: 80px;
+}
+
+.danhsach{
+    display: flex;
+}

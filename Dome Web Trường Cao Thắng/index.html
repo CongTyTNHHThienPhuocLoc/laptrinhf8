@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRƯỜNG CAO ĐẲNG KĨ THUẬT CAO THẮNG </title>
+    <link rel="stylesheet" href="./essets/css/base.css">
+    <link rel="stylesheet" href="./essets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!-- font chữ -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap&subset=vietnamese" rel="stylesheet">
+     <!-- fonts hình -->
+    <link rel="stylesheet" href="./essets/fonts/fontawesome-free-5.12.1/fontawesome-free-5.12.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header__navbar">
+              <ul class="header__navbar-list">
+                  <li class="header__navbar-list-item">
+                    <a href="">
+                         <i class="header__navbar-icon fas fa-home"></i>
+                    </a>   
+                  </li>
+                  <li class="header__navbar-list-item">
+                      <input type="text" placeholder="Search trong shop ..." class="header__navbar-list-item-search">
+                  </li>
+                  <li class="header__navbar-list-item">
+                      <button class="header__navbar-list-item-buttom">
+                           <i class="header__navbar-icon-search fas fa-search"></i>
+                      </button>  
+                 </li>
+              </ul>
+              <ul class="header__navbar-list">
+                    <li class="header__navbar-list-item header__navbar-list-item-other">
+                        <a href="">
+                            <i class="header__navbar-icon fas fa-gamepad" title="Game"></i>
+                        </a> 
+                    </li>
+                    <li class="header__navbar-list-item">
+                        <span class="header__navbar-list-item-text ">ĐĂNG KÝ</span>
+                    </li>
+                    <li class="header__navbar-list-item">
+                      <span class="header__navbar-list-item-text">ĐĂNG NHẬP</span>
+                   </li>
+                   <li class="header__navbar-list-item">
+                      <a href="">
+                          <i class="header__navbar-icon fab fa-facebook-square"></i>
+                      </a>   
+                  </li>
+                  <li class="header__navbar-list-item">
+                      <a href="">
+                        <i class="header__navbar-icon fab fa-youtube"></i>
+                      </a>   
+                </li>
+              </ul>
+              
+
+              </div>
+        </header>
+        <div class="body">
+
+            <!-- ĐAwng nhập, Đăng kí  -->
+              <!-- Modal Register form đăng kí  : css in base.css -->
+           <div class="modal">
+            <div class="modal__overlay">
+            </div>
+            <div class="modal__body">
+                     
+                <div class="modal__body-form">
+                    <div class="modal__body-group">
+
+                        <header class="modal__body-form-header">
+                            <h3 class="modal__body-form-header-text">Đăng ký</h3>
+                            <span class="modal__body-form-header-switch">Đăng nhập</span>
+                        </header>
+                        <div class="modal__body-form-form">
+                            <div class="modal__body-form-form-group">
+                                    <input type="text" class="modal__body-form-input" placeholder="Gmail của bạn" >
+                            </div>
+                            <div class="modal__body-form-form-group">
+                                <input type="password" class="modal__body-form-input" placeholder="Password của bạn" >
+                            </div>
+                            <div class="modal__body-form-form-group">
+                                <input type="text" class="modal__body-form-input" placeholder="Xác nhận Pass" >
+                            </div> 
+                        </div>
+                        <div class="modal__body-form-aside">
+                            <p class="modal__body-form-text">
+                                Bằng việc đăng kí, bạn đã đồng ý với Shop - Hello về
+                                <a href="" class="model__boby-form-text-link">Điều khoản dịch vụ</a> &
+                                <a href="" class="model__boby-form-text-link">Chính sách bảo mật </a>
+                    
+                            </p>
+                        </div>
+                        <div class="modal__body-controls">
+                            <button class="nut_nhan button_class_1">TRỞ LẠI</button>
+                            <button class="nut_nhan button__class_2">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                    <footer class="modal__body-fooder">
+                        <a href="" class="nut_nhan btn--with-icon btn--with-icon-private-1">
+                            <i class="fab fa-facebook-square padding_nut-nhan"></i>
+                                Kết nối với Facebook
+                        </a>
+                        <a href="" class="nut_nhan btn--with-icon btn--with-icon-private-2">
+                            <i class="fab fa-google padding_nut-nhan"></i>
+                                Kết nối với google
+                        </a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <!-- Modal login form đăng nhập  : css in base.css -->
+            
+              <!-- <div class="modal">  
+            <div class="modal__overlay">
+            </div>
+
+            <div class="modal__body">
+                     
+                <div class="modal__body-form">
+                    <div class="modal__body-group">
+
+                        <header class="modal__body-form-header">
+                            <h3 class="modal__body-form-header-text">Đăng nhập</h3>
+                            <span class="modal__body-form-header-switch">Đăng ký</span>
+                        </header>
+                        <div class="modal__body-form-form">
+                            <div class="modal__body-form-form-group">
+                                    <input type="text" class="modal__body-form-input" placeholder="Gmail của bạn/Number Phone/Name of you" >
+                            </div>
+                            <div class="modal__body-form-form-group">
+                                <input type="password" class="modal__body-form-input" placeholder="Password của bạn" >
+                            </div> 
+                        </div>
+                        <div class="modal__body-form-aside ">
+                            <div class="modal__body-form-help">
+                                <a href="" class="modal__body-form-help-link modal__body-form-help-forgot">Quên mật khẩu</a>
+                               <span class="modal__body-form-help-separate"></span>
+                                <a href="" class="modal__body-form-help-link">Cần trợ giúp?</a>
+                            </div>
+                        </div>
+                        <div class="modal__body-controls">
+                            <button class="nut_nhan button_class_1">TRỞ LẠI</button>
+                            <button class="nut_nhan button__class_2">ĐĂNG NHẬP</button>
+                        </div>
+                    </div>
+                    <footer class="modal__body-fooder">
+                        <a href="" class="nut_nhan btn--with-icon btn--with-icon-private-1">
+                            <i class="fab fa-facebook-square padding_nut-nhan"></i>
+                                Kết nối với Facebook
+                        </a>
+                        <a href="" class="nut_nhan btn--with-icon btn--with-icon-private-2">
+                            <i class="fab fa-google padding_nut-nhan"></i>
+                                Kết nối với google
+                        </a>
+                    </footer>
+                </div>
+            </div>
+        </div>   -->
+        <footer class="footer">
+
+        </footer>
+    </div>
+</body>
+</html>

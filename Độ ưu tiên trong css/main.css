@@ -1,0 +1,46 @@
+
+
+/* Dùng tất cả trong html */
+*{
+    color: blueviolet;
+}
+.mau_chu_thuong
+ {
+    color:red;
+ }
+    #hi
+    {
+        color:blue;
+    }
+h1{
+    font-size: 100 px;
+  }
+
+       .Style1.Style2
+		{
+            padding: 60px 600px 60px 600px; 
+			background: gray;
+			color:rgb(0, 255, 94);
+		}
+        .Style2
+        {
+            background-color: gray;
+        }
+       
+
+
+
+
+        /* Gọi chung */
+        #hieu.minh{
+            color: yellow;
+
+        }
+
+
+
+        
+        #hi.mau_chu_thuong{
+            color:black;
+        }
+  

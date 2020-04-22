@@ -1,0 +1,53 @@
+.background__bia{
+   background-color: rgba(223,137,114, 0.3);
+   height: 100vh;
+   width: 100vw;
+   position: fixed;
+   top: 0;
+   
+   /* display: none; */
+}
+.background__picture{
+position: absolute;
+margin-left: 30vw;
+margin-top: 20vh;
+ 
+}
+.background__img{
+    height: 400px;
+    width: 300px;
+}
+.background__picture-link-close{
+    position: absolute;
+    top:0px;
+}
+.hoho:active .background__bia{
+    display: none;
+  
+}
+.close{
+    position: fixed;
+    top:159px;
+    left: 688px;
+   
+}
+.pointer{
+    cursor: text;
+}
+
+
+
+
+
+
+
+
+
+
+body{
+    margin: 0px;
+}
+
+.luot{
+    margin-top:1000px;
+}

@@ -1,0 +1,22 @@
+#box{
+    width: 50vw;
+    height: 50vh;
+
+    padding: 20px;
+    border-width:5px;
+    border-style: dashed;
+    border-color: royalblue;
+    background-color: blue;
+    background-clip:padding-box;
+
+    box-sizing: border-box;
+    display: flex;
+   
+
+
+}
+.text{
+    width: 20px;
+    margin: auto;
+
+}

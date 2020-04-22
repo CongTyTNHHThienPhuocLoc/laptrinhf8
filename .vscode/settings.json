@@ -1,0 +1,7 @@
+{
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers",
+        "blocks"
+    ]
+}
